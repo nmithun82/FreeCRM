@@ -1,0 +1,15 @@
+<suite name="FREE CRM TEST AUTO Sanity">
+	
+	<!-- <listeners>
+		<listener class-name="com.crm.qa.ExtentReportListener.ExtentReporterNG" />
+	</listeners> -->
+	
+	<test name="FREE CRM TESTING" allow-return-values="true">
+		<classes>
+			<class name="com.crm.qa.testcases.ContactsPageTest" />
+		
+		</classes>
+	</test>
+		
+</suite>
+

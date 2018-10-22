@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="84.213" tests="3" errors="0" skipped="1" failures="1">
+  <properties>
+    <property name="gopherProxySet" value="false"/>
+    <property name="awt.toolkit" value="sun.lwawt.macosx.LWCToolkit"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="sun.cpu.isalist" value=""/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.class.path" value="/Users/mithun_pc/eclipse-workspace/CRMTest/target/test-classes:/Users/mithun_pc/eclipse-workspace/CRMTest/target/classes:/Users/mithun_pc/.m2/repository/org/apache/poi/poi/3.9/poi-3.9.jar:/Users/mithun_pc/.m2/repository/commons-codec/commons-codec/1.5/commons-codec-1.5.jar:/Users/mithun_pc/.m2/repository/org/apache/poi/poi-ooxml/3.9/poi-ooxml-3.9.jar:/Users/mithun_pc/.m2/repository/org/apache/poi/poi-ooxml-schemas/3.9/poi-ooxml-schemas-3.9.jar:/Users/mithun_pc/.m2/repository/dom4j/dom4j/1.1/dom4j-1.1.jar:/Users/mithun_pc/.m2/repository/org/apache/xmlbeans/xmlbeans/2.3.0/xmlbeans-2.3.0.jar:/Users/mithun_pc/.m2/repository/stax/stax-api/1.0.1/stax-api-1.0.1.jar:/Users/mithun_pc/.m2/repository/log4j/log4j/1.2.17/log4j-1.2.17.jar:/Users/mithun_pc/.m2/repository/org/seleniumhq/selenium/selenium-java/3.14.0/selenium-java-3.14.0.jar:/Users/mithun_pc/.m2/repository/org/seleniumhq/selenium/selenium-api/3.14.0/selenium-api-3.14.0.jar:/Users/mithun_pc/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/3.14.0/selenium-chrome-driver-3.14.0.jar:/Users/mithun_pc/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/3.14.0/selenium-edge-driver-3.14.0.jar:/Users/mithun_pc/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/3.14.0/selenium-firefox-driver-3.14.0.jar:/Users/mithun_pc/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/3.14.0/selenium-ie-driver-3.14.0.jar:/Users/mithun_pc/.m2/repository/org/seleniumhq/selenium/selenium-opera-driver/3.14.0/selenium-opera-driver-3.14.0.jar:/Users/mithun_pc/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/3.14.0/selenium-remote-driver-3.14.0.jar:/Users/mithun_pc/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/3.14.0/selenium-safari-driver-3.14.0.jar:/Users/mithun_pc/.m2/repository/org/seleniumhq/selenium/selenium-support/3.14.0/selenium-support-3.14.0.jar:/Users/mithun_pc/.m2/repository/net/bytebuddy/byte-buddy/1.8.15/byte-buddy-1.8.15.jar:/Users/mithun_pc/.m2/repository/org/apache/commons/commons-exec/1.3/commons-exec-1.3.jar:/Users/mithun_pc/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/Users/mithun_pc/.m2/repository/org/apache/httpcomponents/httpcore/4.4.9/httpcore-4.4.9.jar:/Users/mithun_pc/.m2/repository/com/squareup/okhttp3/okhttp/3.10.0/okhttp-3.10.0.jar:/Users/mithun_pc/.m2/repository/com/squareup/okio/okio/1.14.1/okio-1.14.1.jar:/Users/mithun_pc/.m2/repository/com/relevantcodes/extentreports/2.40.1/extentreports-2.40.1.jar:/Users/mithun_pc/.m2/repository/org/jsoup/jsoup/1.8.3/jsoup-1.8.3.jar:/Users/mithun_pc/.m2/repository/org/xerial/sqlite-jdbc/3.8.11.1/sqlite-jdbc-3.8.11.1.jar:/Users/mithun_pc/.m2/repository/org/freemarker/freemarker/2.3.23/freemarker-2.3.23.jar:/Users/mithun_pc/.m2/repository/org/testng/testng/6.13.1/testng-6.13.1.jar:/Users/mithun_pc/.m2/repository/com/beust/jcommander/1.72/jcommander-1.72.jar:/Users/mithun_pc/.m2/repository/io/appium/java-client/3.3.0/java-client-3.3.0.jar:/Users/mithun_pc/.m2/repository/com/google/code/gson/gson/2.2.4/gson-2.2.4.jar:/Users/mithun_pc/.m2/repository/org/apache/httpcomponents/httpclient/4.3.3/httpclient-4.3.3.jar:/Users/mithun_pc/.m2/repository/com/google/guava/guava/22.0/guava-22.0.jar:/Users/mithun_pc/.m2/repository/com/google/code/findbugs/jsr305/1.3.9/jsr305-1.3.9.jar:/Users/mithun_pc/.m2/repository/com/google/errorprone/error_prone_annotations/2.0.18/error_prone_annotations-2.0.18.jar:/Users/mithun_pc/.m2/repository/com/google/j2objc/j2objc-annotations/1.1/j2objc-annotations-1.1.jar:/Users/mithun_pc/.m2/repository/org/codehaus/mojo/animal-sniffer-annotations/1.14/animal-sniffer-annotations-1.14.jar:/Users/mithun_pc/.m2/repository/cglib/cglib/3.1/cglib-3.1.jar:/Users/mithun_pc/.m2/repository/org/ow2/asm/asm/4.2/asm-4.2.jar:/Users/mithun_pc/.m2/repository/commons-validator/commons-validator/1.4.1/commons-validator-1.4.1.jar:/Users/mithun_pc/.m2/repository/commons-beanutils/commons-beanutils/1.8.3/commons-beanutils-1.8.3.jar:/Users/mithun_pc/.m2/repository/commons-digester/commons-digester/1.8.1/commons-digester-1.8.1.jar:/Users/mithun_pc/.m2/repository/commons-collections/commons-collections/3.2.1/commons-collections-3.2.1.jar:/Users/mithun_pc/.m2/repository/org/apache/directory/studio/org.apache.commons.io/2.4/org.apache.commons.io-2.4.jar:/Users/mithun_pc/.m2/repository/commons-io/commons-io/2.4/commons-io-2.4.jar:/Users/mithun_pc/.m2/repository/javax/mail/mail/1.4/mail-1.4.jar:/Users/mithun_pc/.m2/repository/javax/activation/activation/1.1/activation-1.1.jar:/Users/mithun_pc/.m2/repository/org/apache/maven/surefire/surefire-testng-utils/2.20.1/surefire-testng-utils-2.20.1.jar:/Users/mithun_pc/.m2/repository/org/apache/maven/surefire/surefire-grouper/2.20.1/surefire-grouper-2.20.1.jar:"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="user.timezone" value=""/>
+    <property name="suiteXmlFile" value="src/main/resources/testng_sanity.xml"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/jre/lib"/>
+    <property name="sun.java.command" value="/Users/mithun_pc/eclipse-workspace/CRMTest/target/surefire/surefirebooter5472783857704144123.jar /Users/mithun_pc/eclipse-workspace/CRMTest/target/surefire 2018-10-22T03-15-15_539-jvmRun1 surefire5654536524989885286tmp surefire_05197097507891358985tmp"/>
+    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="surefire.test.class.path" value="/Users/mithun_pc/eclipse-workspace/CRMTest/target/test-classes:/Users/mithun_pc/eclipse-workspace/CRMTest/target/classes:/Users/mithun_pc/.m2/repository/org/apache/poi/poi/3.9/poi-3.9.jar:/Users/mithun_pc/.m2/repository/commons-codec/commons-codec/1.5/commons-codec-1.5.jar:/Users/mithun_pc/.m2/repository/org/apache/poi/poi-ooxml/3.9/poi-ooxml-3.9.jar:/Users/mithun_pc/.m2/repository/org/apache/poi/poi-ooxml-schemas/3.9/poi-ooxml-schemas-3.9.jar:/Users/mithun_pc/.m2/repository/dom4j/dom4j/1.1/dom4j-1.1.jar:/Users/mithun_pc/.m2/repository/org/apache/xmlbeans/xmlbeans/2.3.0/xmlbeans-2.3.0.jar:/Users/mithun_pc/.m2/repository/stax/stax-api/1.0.1/stax-api-1.0.1.jar:/Users/mithun_pc/.m2/repository/log4j/log4j/1.2.17/log4j-1.2.17.jar:/Users/mithun_pc/.m2/repository/org/seleniumhq/selenium/selenium-java/3.14.0/selenium-java-3.14.0.jar:/Users/mithun_pc/.m2/repository/org/seleniumhq/selenium/selenium-api/3.14.0/selenium-api-3.14.0.jar:/Users/mithun_pc/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/3.14.0/selenium-chrome-driver-3.14.0.jar:/Users/mithun_pc/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/3.14.0/selenium-edge-driver-3.14.0.jar:/Users/mithun_pc/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/3.14.0/selenium-firefox-driver-3.14.0.jar:/Users/mithun_pc/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/3.14.0/selenium-ie-driver-3.14.0.jar:/Users/mithun_pc/.m2/repository/org/seleniumhq/selenium/selenium-opera-driver/3.14.0/selenium-opera-driver-3.14.0.jar:/Users/mithun_pc/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/3.14.0/selenium-remote-driver-3.14.0.jar:/Users/mithun_pc/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/3.14.0/selenium-safari-driver-3.14.0.jar:/Users/mithun_pc/.m2/repository/org/seleniumhq/selenium/selenium-support/3.14.0/selenium-support-3.14.0.jar:/Users/mithun_pc/.m2/repository/net/bytebuddy/byte-buddy/1.8.15/byte-buddy-1.8.15.jar:/Users/mithun_pc/.m2/repository/org/apache/commons/commons-exec/1.3/commons-exec-1.3.jar:/Users/mithun_pc/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/Users/mithun_pc/.m2/repository/org/apache/httpcomponents/httpcore/4.4.9/httpcore-4.4.9.jar:/Users/mithun_pc/.m2/repository/com/squareup/okhttp3/okhttp/3.10.0/okhttp-3.10.0.jar:/Users/mithun_pc/.m2/repository/com/squareup/okio/okio/1.14.1/okio-1.14.1.jar:/Users/mithun_pc/.m2/repository/com/relevantcodes/extentreports/2.40.1/extentreports-2.40.1.jar:/Users/mithun_pc/.m2/repository/org/jsoup/jsoup/1.8.3/jsoup-1.8.3.jar:/Users/mithun_pc/.m2/repository/org/xerial/sqlite-jdbc/3.8.11.1/sqlite-jdbc-3.8.11.1.jar:/Users/mithun_pc/.m2/repository/org/freemarker/freemarker/2.3.23/freemarker-2.3.23.jar:/Users/mithun_pc/.m2/repository/org/testng/testng/6.13.1/testng-6.13.1.jar:/Users/mithun_pc/.m2/repository/com/beust/jcommander/1.72/jcommander-1.72.jar:/Users/mithun_pc/.m2/repository/io/appium/java-client/3.3.0/java-client-3.3.0.jar:/Users/mithun_pc/.m2/repository/com/google/code/gson/gson/2.2.4/gson-2.2.4.jar:/Users/mithun_pc/.m2/repository/org/apache/httpcomponents/httpclient/4.3.3/httpclient-4.3.3.jar:/Users/mithun_pc/.m2/repository/com/google/guava/guava/22.0/guava-22.0.jar:/Users/mithun_pc/.m2/repository/com/google/code/findbugs/jsr305/1.3.9/jsr305-1.3.9.jar:/Users/mithun_pc/.m2/repository/com/google/errorprone/error_prone_annotations/2.0.18/error_prone_annotations-2.0.18.jar:/Users/mithun_pc/.m2/repository/com/google/j2objc/j2objc-annotations/1.1/j2objc-annotations-1.1.jar:/Users/mithun_pc/.m2/repository/org/codehaus/mojo/animal-sniffer-annotations/1.14/animal-sniffer-annotations-1.14.jar:/Users/mithun_pc/.m2/repository/cglib/cglib/3.1/cglib-3.1.jar:/Users/mithun_pc/.m2/repository/org/ow2/asm/asm/4.2/asm-4.2.jar:/Users/mithun_pc/.m2/repository/commons-validator/commons-validator/1.4.1/commons-validator-1.4.1.jar:/Users/mithun_pc/.m2/repository/commons-beanutils/commons-beanutils/1.8.3/commons-beanutils-1.8.3.jar:/Users/mithun_pc/.m2/repository/commons-digester/commons-digester/1.8.1/commons-digester-1.8.1.jar:/Users/mithun_pc/.m2/repository/commons-collections/commons-collections/3.2.1/commons-collections-3.2.1.jar:/Users/mithun_pc/.m2/repository/org/apache/directory/studio/org.apache.commons.io/2.4/org.apache.commons.io-2.4.jar:/Users/mithun_pc/.m2/repository/commons-io/commons-io/2.4/commons-io-2.4.jar:/Users/mithun_pc/.m2/repository/javax/mail/mail/1.4/mail-1.4.jar:/Users/mithun_pc/.m2/repository/javax/activation/activation/1.1/activation-1.1.jar:/Users/mithun_pc/.m2/repository/org/apache/maven/surefire/surefire-testng-utils/2.20.1/surefire-testng-utils-2.20.1.jar:/Users/mithun_pc/.m2/repository/org/apache/maven/surefire/surefire-grouper/2.20.1/surefire-grouper-2.20.1.jar:"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="/Users/mithun_pc"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.home" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/jre"/>
+    <property name="basedir" value="/Users/mithun_pc/eclipse-workspace/CRMTest"/>
+    <property name="file.separator" value="/"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.CGraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="/Users/mithun_pc/eclipse-workspace/CRMTest/target/surefire/surefirebooter5472783857704144123.jar"/>
+    <property name="sun.boot.class.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/jre/lib/sunrsasign.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/jre/classes"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="java.runtime.version" value="1.8.0_151-b12"/>
+    <property name="user.name" value="mithun_pc"/>
+    <property name="path.separator" value=":"/>
+    <property name="os.version" value="10.12.6"/>
+    <property name="java.endorsed.dirs" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/jre/lib/endorsed"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="/Users/mithun_pc/.m2/repository"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="/var/folders/db/p6x45br54bzfvtm295yfhtnw0000gn/T/"/>
+    <property name="java.version" value="1.8.0_151"/>
+    <property name="user.dir" value="/Users/mithun_pc/eclipse-workspace/CRMTest"/>
+    <property name="os.arch" value="x86_64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.lwawt.macosx.CPrinterJob"/>
+    <property name="sun.os.patch.level" value="unknown"/>
+    <property name="java.library.path" value="/Users/mithun_pc/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="25.151-b12"/>
+    <property name="java.ext.dirs" value="/Users/mithun_pc/Library/Java/Extensions:/Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/jre/lib/ext:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+  </properties>
+  <testcase name="verifyContactsPageLabel" classname="com.crm.qa.testcases.ContactsPageTest" time="0.085">
+    <failure message="invalid selector: Unable to locate an element with the xpath expression 123//td[contains(text(),&apos;Contacts&apos;)] because of the following error:&#10;SyntaxError: Failed to execute &apos;evaluate&apos; on &apos;Document&apos;: Type conversion failed while evaluating the expression.&#10;  (Session info: chrome=69.0.3497.100)&#10;  (Driver info: chromedriver=2.42.591059 (a3d9684d10d61aa0c45f6723b327283be1ebaad8),platform=Mac OS X 10.12.6 x86_64) (WARNING: The server did not provide any stacktrace information)&#10;Command duration or timeout: 0 milliseconds&#10;For documentation on this error, please visit: http://seleniumhq.org/exceptions/invalid_selector_exception.html&#10;Build info: version: &apos;3.14.0&apos;, revision: &apos;aacccce0&apos;, time: &apos;2018-08-02T20:19:58.91Z&apos;&#10;System info: host: &apos;Mithuns-Mac-mini.local&apos;, ip: &apos;192.168.0.104&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.12.6&apos;, java.version: &apos;1.8.0_151&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.42.591059 (a3d9684d10d61a..., userDataDir: /var/folders/db/p6x45br54bz...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:51571}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 69.0.3497.100, webStorageEnabled: true}&#10;Session ID: aff95aa073e21800b152388e873f73b4&#10;*** Element info: {Using=xpath, value=123//td[contains(text(),&apos;Contacts&apos;)]}" type="org.openqa.selenium.InvalidSelectorException">org.openqa.selenium.InvalidSelectorException: 
+invalid selector: Unable to locate an element with the xpath expression 123//td[contains(text(),'Contacts')] because of the following error:
+SyntaxError: Failed to execute 'evaluate' on 'Document': Type conversion failed while evaluating the expression.
+  (Session info: chrome=69.0.3497.100)
+  (Driver info: chromedriver=2.42.591059 (a3d9684d10d61aa0c45f6723b327283be1ebaad8),platform=Mac OS X 10.12.6 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/invalid_selector_exception.html
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'Mithuns-Mac-mini.local', ip: '192.168.0.104', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.12.6', java.version: '1.8.0_151'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.42.591059 (a3d9684d10d61a..., userDataDir: /var/folders/db/p6x45br54bz...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:51571}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 69.0.3497.100, webStorageEnabled: true}
+Session ID: aff95aa073e21800b152388e873f73b4
+*** Element info: {Using=xpath, value=123//td[contains(text(),'Contacts')]}
+	at com.crm.qa.testcases.ContactsPageTest.verifyContactsPageLabel(ContactsPageTest.java:60)
+</failure>
+    <system-out><![CDATA[[TestNGContentHandler] [WARN] It is strongly recommended to add "<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >" at the top of your file, otherwise TestNG may fail or not work as expected.
+Before navigating to: 'https://www.freecrm.com/'
+Navigated to:'https://www.freecrm.com/'
+Trying to find Element By : By.name: username
+Found Element By : By.name: username
+Trying to find Element By : By.name: password
+Found Element By : By.name: password
+Exception occured: org.openqa.selenium.UnsupportedCommandException: actions
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'Mithuns-Mac-mini.local', ip: '192.168.0.104', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.12.6', java.version: '1.8.0_151'
+Driver info: driver.version: EventFiringWebDriver
+Trying to find Element By : By.cssSelector: input[value='Login']
+Found Element By : By.cssSelector: input[value='Login']
+Trying to find Element By : By.cssSelector: a[title='Contacts']
+Found Element By : By.cssSelector: a[title='Contacts']
+Exception occured: org.openqa.selenium.UnsupportedCommandException: actions
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'Mithuns-Mac-mini.local', ip: '192.168.0.104', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.12.6', java.version: '1.8.0_151'
+Driver info: driver.version: EventFiringWebDriver
+Trying to find Element By : By.cssSelector: a[title='Contacts']
+Found Element By : By.cssSelector: a[title='Contacts']
+Trying to find Element By : By.xpath: 123//td[contains(text(),'Contacts')]
+Exception occured: org.openqa.selenium.InvalidSelectorException: invalid selector: Unable to locate an element with the xpath expression 123//td[contains(text(),'Contacts')] because of the following error:
+SyntaxError: Failed to execute 'evaluate' on 'Document': Type conversion failed while evaluating the expression.
+  (Session info: chrome=69.0.3497.100)
+  (Driver info: chromedriver=2.42.591059 (a3d9684d10d61aa0c45f6723b327283be1ebaad8),platform=Mac OS X 10.12.6 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/invalid_selector_exception.html
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'Mithuns-Mac-mini.local', ip: '192.168.0.104', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.12.6', java.version: '1.8.0_151'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.42.591059 (a3d9684d10d61a..., userDataDir: /var/folders/db/p6x45br54bz...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:51571}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 69.0.3497.100, webStorageEnabled: true}
+Session ID: aff95aa073e21800b152388e873f73b4
+*** Element info: {Using=xpath, value=123//td[contains(text(),'Contacts')]}
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 2.42.591059 (a3d9684d10d61aa0c45f6723b327283be1ebaad8) on port 16307
+Only local connections are allowed.
+Oct 22, 2018 3:15:34 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
+]]></system-err>
+  </testcase>
+  <testcase name="selectContactsTest" classname="com.crm.qa.testcases.ContactsPageTest" time="0.164"/>
+  <testcase name="selectMultiContactsTest" classname="com.crm.qa.testcases.ContactsPageTest" time="0">
+    <skipped message="TEST FOR SKIPPING"/>
+    <system-out><![CDATA[Before navigating to: 'https://www.freecrm.com/'
+Navigated to:'https://www.freecrm.com/'
+Trying to find Element By : By.name: username
+Found Element By : By.name: username
+Trying to find Element By : By.name: password
+Found Element By : By.name: password
+Exception occured: org.openqa.selenium.UnsupportedCommandException: actions
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'Mithuns-Mac-mini.local', ip: '192.168.0.104', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.12.6', java.version: '1.8.0_151'
+Driver info: driver.version: EventFiringWebDriver
+Trying to find Element By : By.cssSelector: input[value='Login']
+Found Element By : By.cssSelector: input[value='Login']
+Trying to find Element By : By.cssSelector: a[title='Contacts']
+Found Element By : By.cssSelector: a[title='Contacts']
+Exception occured: org.openqa.selenium.UnsupportedCommandException: actions
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'Mithuns-Mac-mini.local', ip: '192.168.0.104', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.12.6', java.version: '1.8.0_151'
+Driver info: driver.version: EventFiringWebDriver
+Trying to find Element By : By.cssSelector: a[title='Contacts']
+Found Element By : By.cssSelector: a[title='Contacts']
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 2.42.591059 (a3d9684d10d61aa0c45f6723b327283be1ebaad8) on port 38323
+Only local connections are allowed.
+Oct 22, 2018 3:16:21 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
+]]></system-err>
+  </testcase>
+</testsuite>
