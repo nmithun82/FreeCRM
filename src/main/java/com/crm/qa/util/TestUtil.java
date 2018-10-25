@@ -97,7 +97,8 @@ public class TestUtil extends TestBase{
 		TakesScreenshot ts = (TakesScreenshot) driver;
 		File source = ts.getScreenshotAs(OutputType.FILE);
 		//after execution, you could see a folder "FailedTestsScreenshots" under src folder
-		String destination = "/Users/mithun_pc/Documents/Project_Reports/FreeCRM"+"/FailedTestsScreenshots/"+screenshotName+".png";
+		//String destination = "/Users/mithun_pc/Documents/Project_Reports/FreeCRM"+"/FailedTestsScreenshots/"+screenshotName+".png";
+		String destination = System.getProperty("user.dir")+"/FailedTestsScreenshots/"+screenshotName+".png";
 		File finalDestination = new File(destination);
 		FileUtils.copyFile(source, finalDestination);
 		//Returns the captured file path
