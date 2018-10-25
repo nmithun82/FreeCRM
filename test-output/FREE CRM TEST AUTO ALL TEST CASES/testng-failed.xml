@@ -1,8 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite thread-count="-1" name="Failed suite [FREE CRM TEST AUTO Sanity]">
+<suite thread-count="-1" name="Failed suite [FREE CRM TEST AUTO ALL TEST CASES]">
   <test name="FREE CRM TESTING(failed)">
     <classes>
+      <class name="com.crm.qa.testcases.HomePageTest">
+        <methods>
+          <include name="closetest"/>
+          <include name="setUp"/>
+          <include name="homePageTitleTest"/>
+        </methods>
+      </class> <!-- com.crm.qa.testcases.HomePageTest -->
       <class name="com.crm.qa.testcases.ContactsPageTest">
         <methods>
           <include name="closetest"/>
@@ -13,4 +20,4 @@
       </class> <!-- com.crm.qa.testcases.ContactsPageTest -->
     </classes>
   </test> <!-- FREE CRM TESTING(failed) -->
-</suite> <!-- Failed suite [FREE CRM TEST AUTO Sanity] -->
+</suite> <!-- Failed suite [FREE CRM TEST AUTO ALL TEST CASES] -->
