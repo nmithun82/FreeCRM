@@ -18,7 +18,7 @@ import com.crm.qa.pages.LoginPage;
 import com.crm.qa.util.TestUtil;
 import com.relevantcodes.extentreports.LogStatus;
 
-
+//test update for github
 public class ContactsPageTest extends TestBase{
 
 	LoginPage loginpage;

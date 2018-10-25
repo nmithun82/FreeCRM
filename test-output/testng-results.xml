@@ -1,96 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="1" failed="2" ignored="0" total="6" passed="3">
+<testng-results skipped="1" failed="1" ignored="0" total="3" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="FREE CRM TEST AUTO Sanity" duration-ms="110440" started-at="2018-10-19T20:19:51Z" finished-at="2018-10-19T20:21:41Z">
+  <suite name="Default suite" duration-ms="62575" started-at="2018-10-25T08:03:57Z" finished-at="2018-10-25T08:05:00Z">
     <groups>
     </groups>
-    <test name="FREE CRM TESTING" duration-ms="110440" started-at="2018-10-19T20:19:51Z" finished-at="2018-10-19T20:21:41Z">
-      <class name="com.crm.qa.testcases.HomePageTest">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.crm.qa.testcases.HomePageTest@262b2c86]" name="setUp" is-config="true" duration-ms="13643" started-at="2018-10-19T16:20:16Z" finished-at="2018-10-19T16:20:29Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="verifyUserNameTest()[pri:1, instance:com.crm.qa.testcases.HomePageTest@262b2c86]" name="verifyUserNameTest" duration-ms="197" started-at="2018-10-19T16:20:29Z" finished-at="2018-10-19T16:20:30Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyUserNameTest -->
-        <test-method status="PASS" signature="closetest(org.testng.ITestResult)[pri:0, instance:com.crm.qa.testcases.HomePageTest@262b2c86]" name="closetest" is-config="true" duration-ms="1145" started-at="2018-10-19T16:20:30Z" finished-at="2018-10-19T16:20:31Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=verifyUserNameTest status=SUCCESS method=HomePageTest.verifyUserNameTest()[pri:1, instance:com.crm.qa.testcases.HomePageTest@262b2c86] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- closetest -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.crm.qa.testcases.HomePageTest@262b2c86]" name="setUp" is-config="true" duration-ms="17302" started-at="2018-10-19T16:20:48Z" finished-at="2018-10-19T16:21:05Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="verifyContactsLinkTest()[pri:2, instance:com.crm.qa.testcases.HomePageTest@262b2c86]" name="verifyContactsLinkTest" duration-ms="1786" started-at="2018-10-19T16:21:05Z" finished-at="2018-10-19T16:21:07Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyContactsLinkTest -->
-        <test-method status="PASS" signature="closetest(org.testng.ITestResult)[pri:0, instance:com.crm.qa.testcases.HomePageTest@262b2c86]" name="closetest" is-config="true" duration-ms="1177" started-at="2018-10-19T16:21:07Z" finished-at="2018-10-19T16:21:08Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=verifyContactsLinkTest status=SUCCESS method=HomePageTest.verifyContactsLinkTest()[pri:2, instance:com.crm.qa.testcases.HomePageTest@262b2c86] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- closetest -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.crm.qa.testcases.HomePageTest@262b2c86]" name="setUp" is-config="true" duration-ms="15769" started-at="2018-10-19T16:21:24Z" finished-at="2018-10-19T16:21:40Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="FAIL" signature="homePageTitleTest()[pri:3, instance:com.crm.qa.testcases.HomePageTest@262b2c86]" name="homePageTitleTest" duration-ms="25" started-at="2018-10-19T16:21:40Z" finished-at="2018-10-19T16:21:40Z">
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[Home page title not matched expected [123CRMPRO] but found [CRMPRO]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: Home page title not matched expected [123CRMPRO] but found [CRMPRO]at org.testng.Assert.fail(Assert.java:96)at org.testng.Assert.failNotEquals(Assert.java:776)at org.testng.Assert.assertEqualsImpl(Assert.java:137)at org.testng.Assert.assertEquals(Assert.java:118)at org.testng.Assert.assertEquals(Assert.java:453)at com.crm.qa.testcases.HomePageTest.homePageTitleTest(HomePageTest.java:46)at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)at java.lang.reflect.Method.invoke(Method.java:498)at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)at org.testng.internal.Invoker.invokeMethod(Invoker.java:571)at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:707)at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:979)at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)at org.testng.TestRunner.privateRun(TestRunner.java:648)at org.testng.TestRunner.run(TestRunner.java:505)at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)at org.testng.SuiteRunner.run(SuiteRunner.java:364)at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)at org.testng.TestNG.runSuitesLocally(TestNG.java:1116)at org.testng.TestNG.runSuites(TestNG.java:1028)at org.testng.TestNG.run(TestNG.java:996)at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- homePageTitleTest -->
-        <test-method status="PASS" signature="closetest(org.testng.ITestResult)[pri:0, instance:com.crm.qa.testcases.HomePageTest@262b2c86]" name="closetest" is-config="true" duration-ms="1107" started-at="2018-10-19T16:21:40Z" finished-at="2018-10-19T16:21:41Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=homePageTitleTest status=FAILURE method=HomePageTest.homePageTitleTest()[pri:3, instance:com.crm.qa.testcases.HomePageTest@262b2c86] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- closetest -->
-      </class> <!-- com.crm.qa.testcases.HomePageTest -->
+    <test name="Default test" duration-ms="62575" started-at="2018-10-25T08:03:57Z" finished-at="2018-10-25T08:05:00Z">
       <class name="com.crm.qa.testcases.ContactsPageTest">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.crm.qa.testcases.ContactsPageTest@13c27452]" name="setUp" is-config="true" duration-ms="23136" started-at="2018-10-19T16:19:51Z" finished-at="2018-10-19T16:20:14Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.crm.qa.testcases.ContactsPageTest@13c27452]" name="setUp" is-config="true" duration-ms="26670" started-at="2018-10-25T04:03:57Z" finished-at="2018-10-25T04:04:24Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="FAIL" signature="verifyContactsPageLabel()[pri:1, instance:com.crm.qa.testcases.ContactsPageTest@13c27452]" name="verifyContactsPageLabel" duration-ms="61" started-at="2018-10-19T16:20:14Z" finished-at="2018-10-19T16:20:14Z">
+        <test-method status="FAIL" signature="verifyContactsPageLabel()[pri:1, instance:com.crm.qa.testcases.ContactsPageTest@13c27452]" name="verifyContactsPageLabel" duration-ms="219" started-at="2018-10-25T04:04:24Z" finished-at="2018-10-25T04:04:24Z">
           <exception class="org.openqa.selenium.InvalidSelectorException">
             <message>
-              <![CDATA[invalid selector: Unable to locate an element with the xpath expression 123//td[contains(text(),'Contacts')] because of the following error:SyntaxError: Failed to execute 'evaluate' on 'Document': Type conversion failed while evaluating the expression.  (Session info: chrome=69.0.3497.100)  (Driver info: chromedriver=2.42.591059 (a3d9684d10d61aa0c45f6723b327283be1ebaad8),platform=Mac OS X 10.12.6 x86_64) (WARNING: The server did not provide any stacktrace information)Command duration or timeout: 0 millisecondsFor documentation on this error, please visit: http://seleniumhq.org/exceptions/invalid_selector_exception.htmlBuild info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'System info: host: 'Mithuns-Mac-mini.local', ip: '192.168.0.104', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.12.6', java.version: '1.8.0_151'Driver info: org.openqa.selenium.chrome.ChromeDriverCapabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.42.591059 (a3d9684d10d61a..., userDataDir: /var/folders/db/p6x45br54bz...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:51769}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 69.0.3497.100, webStorageEnabled: true}Session ID: 13a624a1ccad57ce8bb7cdd1351952dc*** Element info: {Using=xpath, value=123//td[contains(text(),'Contacts')]}]]>
+              <![CDATA[invalid selector: Unable to locate an element with the xpath expression 123//td[contains(text(),'Contacts')] because of the following error:SyntaxError: Failed to execute 'evaluate' on 'Document': Type conversion failed while evaluating the expression.  (Session info: chrome=69.0.3497.100)  (Driver info: chromedriver=2.42.591059 (a3d9684d10d61aa0c45f6723b327283be1ebaad8),platform=Mac OS X 10.12.6 x86_64) (WARNING: The server did not provide any stacktrace information)Command duration or timeout: 0 millisecondsFor documentation on this error, please visit: http://seleniumhq.org/exceptions/invalid_selector_exception.htmlBuild info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'System info: host: 'Mithuns-Mac-mini.local', ip: '192.168.0.104', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.12.6', java.version: '1.8.0_151'Driver info: org.openqa.selenium.chrome.ChromeDriverCapabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.42.591059 (a3d9684d10d61a..., userDataDir: /var/folders/db/p6x45br54bz...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:49556}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 69.0.3497.100, webStorageEnabled: true}Session ID: 191f457f9efe631a72c61a1fbbe622c0*** Element info: {Using=xpath, value=123//td[contains(text(),'Contacts')]}]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.InvalidSelectorException: invalid selector: Unable to locate an element with the xpath expression 123//td[contains(text(),'Contacts')] because of the following error:SyntaxError: Failed to execute 'evaluate' on 'Document': Type conversion failed while evaluating the expression.  (Session info: chrome=69.0.3497.100)  (Driver info: chromedriver=2.42.591059 (a3d9684d10d61aa0c45f6723b327283be1ebaad8),platform=Mac OS X 10.12.6 x86_64) (WARNING: The server did not provide any stacktrace information)Command duration or timeout: 0 millisecondsFor documentation on this error, please visit: http://seleniumhq.org/exceptions/invalid_selector_exception.htmlBuild info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'System info: host: 'Mithuns-Mac-mini.local', ip: '192.168.0.104', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.12.6', java.version: '1.8.0_151'Driver info: org.openqa.selenium.chrome.ChromeDriverCapabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.42.591059 (a3d9684d10d61a..., userDataDir: /var/folders/db/p6x45br54bz...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:51769}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 69.0.3497.100, webStorageEnabled: true}Session ID: 13a624a1ccad57ce8bb7cdd1351952dc*** Element info: {Using=xpath, value=123//td[contains(text(),'Contacts')]}at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)at java.lang.reflect.Constructor.newInstance(Constructor.java:423)at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:322)at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:424)at org.openqa.selenium.By$ByXPath.findElement(By.java:353)at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:314)at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)at java.lang.reflect.Method.invoke(Method.java:498)at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$1(EventFiringWebDriver.java:105)at com.sun.proxy.$Proxy7.findElement(Unknown Source)at org.openqa.selenium.support.events.EventFiringWebDriver.findElement(EventFiringWebDriver.java:194)at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)at com.sun.proxy.$Proxy11.isDisplayed(Unknown Source)at com.crm.qa.pages.ContactsPage.verifyContactsLabel(ContactsPage.java:45)at com.crm.qa.testcases.ContactsPageTest.verifyContactsPageLabel(ContactsPageTest.java:60)at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)at java.lang.reflect.Method.invoke(Method.java:498)at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)at org.testng.internal.Invoker.invokeMethod(Invoker.java:571)at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:707)at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:979)at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)at org.testng.TestRunner.privateRun(TestRunner.java:648)at org.testng.TestRunner.run(TestRunner.java:505)at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)at org.testng.SuiteRunner.run(SuiteRunner.java:364)at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)at org.testng.TestNG.runSuitesLocally(TestNG.java:1116)at org.testng.TestNG.runSuites(TestNG.java:1028)at org.testng.TestNG.run(TestNG.java:996)at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)]]>
+              <![CDATA[org.openqa.selenium.InvalidSelectorException: invalid selector: Unable to locate an element with the xpath expression 123//td[contains(text(),'Contacts')] because of the following error:SyntaxError: Failed to execute 'evaluate' on 'Document': Type conversion failed while evaluating the expression.  (Session info: chrome=69.0.3497.100)  (Driver info: chromedriver=2.42.591059 (a3d9684d10d61aa0c45f6723b327283be1ebaad8),platform=Mac OS X 10.12.6 x86_64) (WARNING: The server did not provide any stacktrace information)Command duration or timeout: 0 millisecondsFor documentation on this error, please visit: http://seleniumhq.org/exceptions/invalid_selector_exception.htmlBuild info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'System info: host: 'Mithuns-Mac-mini.local', ip: '192.168.0.104', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.12.6', java.version: '1.8.0_151'Driver info: org.openqa.selenium.chrome.ChromeDriverCapabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.42.591059 (a3d9684d10d61a..., userDataDir: /var/folders/db/p6x45br54bz...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:49556}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 69.0.3497.100, webStorageEnabled: true}Session ID: 191f457f9efe631a72c61a1fbbe622c0*** Element info: {Using=xpath, value=123//td[contains(text(),'Contacts')]}at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)at java.lang.reflect.Constructor.newInstance(Constructor.java:423)at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:322)at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:424)at org.openqa.selenium.By$ByXPath.findElement(By.java:353)at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:314)at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)at java.lang.reflect.Method.invoke(Method.java:498)at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$1(EventFiringWebDriver.java:105)at com.sun.proxy.$Proxy7.findElement(Unknown Source)at org.openqa.selenium.support.events.EventFiringWebDriver.findElement(EventFiringWebDriver.java:194)at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)at com.sun.proxy.$Proxy11.isDisplayed(Unknown Source)at com.crm.qa.pages.ContactsPage.verifyContactsLabel(ContactsPage.java:45)at com.crm.qa.testcases.ContactsPageTest.verifyContactsPageLabel(ContactsPageTest.java:60)at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)at java.lang.reflect.Method.invoke(Method.java:498)at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)at org.testng.internal.Invoker.invokeMethod(Invoker.java:571)at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:707)at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:979)at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)at org.testng.TestRunner.privateRun(TestRunner.java:648)at org.testng.TestRunner.run(TestRunner.java:505)at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)at org.testng.SuiteRunner.run(SuiteRunner.java:364)at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)at org.testng.TestNG.runSuitesLocally(TestNG.java:1116)at org.testng.TestNG.runSuites(TestNG.java:1028)at org.testng.TestNG.run(TestNG.java:996)at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)]]>
             </full-stacktrace>
           </exception> <!-- org.openqa.selenium.InvalidSelectorException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyContactsPageLabel -->
-        <test-method status="PASS" signature="closetest(org.testng.ITestResult)[pri:0, instance:com.crm.qa.testcases.ContactsPageTest@13c27452]" name="closetest" is-config="true" duration-ms="1615" started-at="2018-10-19T16:20:14Z" finished-at="2018-10-19T16:20:16Z">
+        <test-method status="PASS" signature="closetest(org.testng.ITestResult)[pri:0, instance:com.crm.qa.testcases.ContactsPageTest@13c27452]" name="closetest" is-config="true" duration-ms="2073" started-at="2018-10-25T04:04:24Z" finished-at="2018-10-25T04:04:26Z">
           <params>
             <param index="0">
               <value>
@@ -101,15 +34,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closetest -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.crm.qa.testcases.ContactsPageTest@13c27452]" name="setUp" is-config="true" duration-ms="15981" started-at="2018-10-19T16:20:31Z" finished-at="2018-10-19T16:20:47Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.crm.qa.testcases.ContactsPageTest@13c27452]" name="setUp" is-config="true" duration-ms="15782" started-at="2018-10-25T04:04:26Z" finished-at="2018-10-25T04:04:42Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="selectContactsTest()[pri:2, instance:com.crm.qa.testcases.ContactsPageTest@13c27452]" name="selectContactsTest" duration-ms="236" started-at="2018-10-19T16:20:47Z" finished-at="2018-10-19T16:20:47Z">
+        <test-method status="PASS" signature="selectContactsTest()[pri:2, instance:com.crm.qa.testcases.ContactsPageTest@13c27452]" name="selectContactsTest" duration-ms="218" started-at="2018-10-25T04:04:42Z" finished-at="2018-10-25T04:04:42Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- selectContactsTest -->
-        <test-method status="PASS" signature="closetest(org.testng.ITestResult)[pri:0, instance:com.crm.qa.testcases.ContactsPageTest@13c27452]" name="closetest" is-config="true" duration-ms="1107" started-at="2018-10-19T16:20:47Z" finished-at="2018-10-19T16:20:48Z">
+        <test-method status="PASS" signature="closetest(org.testng.ITestResult)[pri:0, instance:com.crm.qa.testcases.ContactsPageTest@13c27452]" name="closetest" is-config="true" duration-ms="1526" started-at="2018-10-25T04:04:42Z" finished-at="2018-10-25T04:04:44Z">
           <params>
             <param index="0">
               <value>
@@ -120,11 +53,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closetest -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.crm.qa.testcases.ContactsPageTest@13c27452]" name="setUp" is-config="true" duration-ms="15015" started-at="2018-10-19T16:21:08Z" finished-at="2018-10-19T16:21:23Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.crm.qa.testcases.ContactsPageTest@13c27452]" name="setUp" is-config="true" duration-ms="14707" started-at="2018-10-25T04:04:44Z" finished-at="2018-10-25T04:04:58Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="SKIP" signature="selectMultiContactsTest()[pri:3, instance:com.crm.qa.testcases.ContactsPageTest@13c27452]" name="selectMultiContactsTest" duration-ms="2" started-at="2018-10-19T16:21:23Z" finished-at="2018-10-19T16:21:23Z">
+        <test-method status="SKIP" signature="selectMultiContactsTest()[pri:3, instance:com.crm.qa.testcases.ContactsPageTest@13c27452]" name="selectMultiContactsTest" duration-ms="5" started-at="2018-10-25T04:04:58Z" finished-at="2018-10-25T04:04:58Z">
           <exception class="org.testng.SkipException">
             <message>
               <![CDATA[TEST FOR SKIPPING]]>
@@ -136,7 +69,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- selectMultiContactsTest -->
-        <test-method status="PASS" signature="closetest(org.testng.ITestResult)[pri:0, instance:com.crm.qa.testcases.ContactsPageTest@13c27452]" name="closetest" is-config="true" duration-ms="1059" started-at="2018-10-19T16:21:23Z" finished-at="2018-10-19T16:21:24Z">
+        <test-method status="PASS" signature="closetest(org.testng.ITestResult)[pri:0, instance:com.crm.qa.testcases.ContactsPageTest@13c27452]" name="closetest" is-config="true" duration-ms="1288" started-at="2018-10-25T04:04:58Z" finished-at="2018-10-25T04:05:00Z">
           <params>
             <param index="0">
               <value>
@@ -148,6 +81,6 @@
           </reporter-output>
         </test-method> <!-- closetest -->
       </class> <!-- com.crm.qa.testcases.ContactsPageTest -->
-    </test> <!-- FREE CRM TESTING -->
-  </suite> <!-- FREE CRM TEST AUTO Sanity -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>
