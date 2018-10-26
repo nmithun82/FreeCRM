@@ -4,7 +4,7 @@
 		<listener class-name="com.crm.qa.ExtentReportListener.ExtentReporterNG" />
 	</listeners> -->
 	
-	<test name="FREE CRM TESTING" allow-return-values="true">
+	<test name="FREE CRM Genkin TESTING" allow-return-values="true">
 		<classes>
 			<class name="com.crm.qa.testcases.ContactsPageTest" />
 		
