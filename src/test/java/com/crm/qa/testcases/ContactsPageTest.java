@@ -84,27 +84,27 @@ public void selectMultiContactsTest() throws InterruptedException
 //   Thread.sleep(3000);
 }
 
-@DataProvider
-public Object[][] getCRMContactTestData()
-{
-	Object data[][]=	TestUtil.getTestData(sheetName);
-	return data;
-
-}
-
-
-@Test(priority=2, dataProvider="getCRMContactTestData")
-public void validateCreateNewContact(String tit,String ftName, String ltName, String comp) throws InterruptedException
-{
-   homepage.clickOnNewContactLink();
-   //contactDetailsPage=contactsPage.createNewContact("Mr.", "Tommy", "Hanky", "Hollywood");
-  contactDetailsPage=contactsPage.createNewContact(tit,ftName,ltName,comp);
-  Thread.sleep(3000);
-   testUtil.switchToFrame();
-  contactDetailsPage.getnewContactName(tit, ftName, ltName);
-   Assert.assertTrue(contactDetailsPage.getnewContactName(tit, ftName, ltName));
-   
-}
+//@DataProvider
+//public Object[][] getCRMContactTestData()
+//{
+//	Object data[][]=	TestUtil.getTestData(sheetName);
+//	return data;
+//
+//}
+//
+//
+//@Test(priority=2, dataProvider="getCRMContactTestData")
+//public void validateCreateNewContact(String tit,String ftName, String ltName, String comp) throws InterruptedException
+//{
+//   homepage.clickOnNewContactLink();
+//   //contactDetailsPage=contactsPage.createNewContact("Mr.", "Tommy", "Hanky", "Hollywood");
+//  contactDetailsPage=contactsPage.createNewContact(tit,ftName,ltName,comp);
+//  Thread.sleep(3000);
+//   testUtil.switchToFrame();
+//  contactDetailsPage.getnewContactName(tit, ftName, ltName);
+//   Assert.assertTrue(contactDetailsPage.getnewContactName(tit, ftName, ltName));
+//   
+//}
 
 @AfterMethod
 public void closetest(ITestResult result) throws Exception {
