@@ -62,26 +62,26 @@ public void verifyContactsPageLabel() throws InterruptedException
 	
 }
 
-
-@Test(priority=2)
-public void selectContactsTest() throws InterruptedException
-{
-	test=rep.startTest("Verifying verify selectContacts Check box");   
-	test.log(LogStatus.INFO, "verify selectContacts Check box done");
-    contactsPage.selectContactsByName("test mithun");
-   
-}
-
-@Test(priority=3)
-public void selectMultiContactsTest() throws InterruptedException
-{
-	test=rep.startTest("selectMultiContactsTest");   
-	test.log(LogStatus.INFO, "verify selectMultiContactsTest Check box done");
-	throw new SkipException("TEST FOR SKIPPING");
-//   contactsPage.selectContactsByName("test aaru");
-//   contactsPage.selectContactsByName("test mithun");
-//   Thread.sleep(3000);
-}
+//
+//@Test(priority=2)
+//public void selectContactsTest() throws InterruptedException
+//{
+//	test=rep.startTest("Verifying verify selectContacts Check box");   
+//	test.log(LogStatus.INFO, "verify selectContacts Check box done");
+//    contactsPage.selectContactsByName("test mithun");
+//   
+//}
+//
+//@Test(priority=3)
+//public void selectMultiContactsTest() throws InterruptedException
+//{
+//	test=rep.startTest("selectMultiContactsTest");   
+//	test.log(LogStatus.INFO, "verify selectMultiContactsTest Check box done");
+//	throw new SkipException("TEST FOR SKIPPING");
+////   contactsPage.selectContactsByName("test aaru");
+////   contactsPage.selectContactsByName("test mithun");
+////   Thread.sleep(3000);
+//}
 
 //@DataProvider
 //public Object[][] getCRMContactTestData()

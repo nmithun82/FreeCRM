@@ -15,7 +15,6 @@
           <include name="closetest"/>
           <include name="setUp"/>
           <include name="verifyContactsPageLabel"/>
-          <include name="selectMultiContactsTest"/>
         </methods>
       </class> <!-- com.crm.qa.testcases.ContactsPageTest -->
     </classes>
