@@ -7,6 +7,7 @@ import org.testng.ITestResult;
 import org.testng.SkipException;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
 //import com.crm.qa.ExtentReportListener.ExtentReporterNG;
@@ -62,48 +63,48 @@ public void verifyContactsPageLabel() throws InterruptedException
 	
 }
 
-//
-//@Test(priority=2)
-//public void selectContactsTest() throws InterruptedException
-//{
-//	test=rep.startTest("Verifying verify selectContacts Check box");   
-//	test.log(LogStatus.INFO, "verify selectContacts Check box done");
-//    contactsPage.selectContactsByName("test mithun");
-//   
-//}
-//
-//@Test(priority=3)
-//public void selectMultiContactsTest() throws InterruptedException
-//{
-//	test=rep.startTest("selectMultiContactsTest");   
-//	test.log(LogStatus.INFO, "verify selectMultiContactsTest Check box done");
-//	throw new SkipException("TEST FOR SKIPPING");
-////   contactsPage.selectContactsByName("test aaru");
-////   contactsPage.selectContactsByName("test mithun");
-////   Thread.sleep(3000);
-//}
 
-//@DataProvider
-//public Object[][] getCRMContactTestData()
-//{
-//	Object data[][]=	TestUtil.getTestData(sheetName);
-//	return data;
-//
-//}
-//
-//
-//@Test(priority=2, dataProvider="getCRMContactTestData")
-//public void validateCreateNewContact(String tit,String ftName, String ltName, String comp) throws InterruptedException
-//{
-//   homepage.clickOnNewContactLink();
-//   //contactDetailsPage=contactsPage.createNewContact("Mr.", "Tommy", "Hanky", "Hollywood");
-//  contactDetailsPage=contactsPage.createNewContact(tit,ftName,ltName,comp);
-//  Thread.sleep(3000);
-//   testUtil.switchToFrame();
-//  contactDetailsPage.getnewContactName(tit, ftName, ltName);
-//   Assert.assertTrue(contactDetailsPage.getnewContactName(tit, ftName, ltName));
-//   
-//}
+@Test(priority=2)
+public void selectContactsTest() throws InterruptedException
+{
+	test=rep.startTest("Verifying verify selectContacts Check box");   
+	test.log(LogStatus.INFO, "verify selectContacts Check box done");
+    contactsPage.selectContactsByName("test mithun");
+   
+}
+
+@Test(priority=3)
+public void selectMultiContactsTest() throws InterruptedException
+{
+	test=rep.startTest("selectMultiContactsTest");   
+	test.log(LogStatus.INFO, "verify selectMultiContactsTest Check box done");
+	throw new SkipException("TEST FOR SKIPPING");
+//   contactsPage.selectContactsByName("test aaru");
+//   contactsPage.selectContactsByName("test mithun");
+//   Thread.sleep(3000);
+}
+
+@DataProvider
+public Object[][] getCRMContactTestData()
+{
+	Object data[][]=	TestUtil.getTestData(sheetName);
+	return data;
+
+}
+
+
+@Test(priority=2, dataProvider="getCRMContactTestData")
+public void validateCreateNewContact(String tit,String ftName, String ltName, String comp) throws InterruptedException
+{
+   homepage.clickOnNewContactLink();
+   //contactDetailsPage=contactsPage.createNewContact("Mr.", "Tommy", "Hanky", "Hollywood");
+  contactDetailsPage=contactsPage.createNewContact(tit,ftName,ltName,comp);
+  Thread.sleep(3000);
+   testUtil.switchToFrame();
+  contactDetailsPage.getnewContactName(tit, ftName, ltName);
+   Assert.assertTrue(contactDetailsPage.getnewContactName(tit, ftName, ltName));
+   
+}
 
 @AfterMethod
 public void closetest(ITestResult result) throws Exception {
